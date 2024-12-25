@@ -14,7 +14,6 @@ def typ(x): # своя функция типизирования
     else:
         return str(x)
 
-filename = input('Введите имя файла: ')
 objects = []
 def load_table():
     if filename.endswith('.csv'):
@@ -393,3 +392,6 @@ def split(table, row):
     return table[:row], table[row:]
 
 # print(split(table, row=2))
+
+if __name__ == '__main__':
+    pass
